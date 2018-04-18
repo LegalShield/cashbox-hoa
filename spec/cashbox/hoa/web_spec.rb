@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe 'Cashbox::Hoa::Web' do
+RSpec.describe 'Cashbox::Hoa::Web' do
 
   def app
     Cashbox::Hoa::Web.new
