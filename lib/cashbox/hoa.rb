@@ -8,7 +8,5 @@ module Cashbox
       autoload :VERSION
       autoload :Web
     end
-
-    # Your code goes here...
   end
 end
