@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     cashbox-hoa (0.1.0)
-      activesupport (~> 5.2)
+      activesupport (~> 5.0)
       sinatra (~> 2.0)
 
 GEM

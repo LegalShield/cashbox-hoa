@@ -1,5 +1,11 @@
 <html>
   <body>
     <%= yield %>
+
+    <% if Cashbox::Hoa.javascript_path %>
+      <script src='<%= Cashbox::Hoa.javascript_path %>'></script>
+    <% else %>
+      <h3>Please configure the path for the Vindicia hoa javascript</h3>
+    <% end %>
   </body>
 </html>
